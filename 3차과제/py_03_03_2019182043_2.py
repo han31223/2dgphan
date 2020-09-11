@@ -1,0 +1,26 @@
+import turtle
+turtle.shape('turtle')
+for n in range(1) :
+	for n in range(6) :
+		turtle.forward(300)
+		turtle.right(180)
+		turtle.forward(300)
+		turtle.right(90)
+		turtle.penup()
+		turtle.forward(60)
+		turtle.right(90)
+		turtle.pendown()
+	turtle.penup()
+	turtle.right(90)
+	turtle.forward(60)
+	turtle.pendown()
+	for n in range(6) :
+		turtle.forward(300)
+		turtle.right(180)
+		turtle.forward(300)
+		turtle.right(90)
+		turtle.penup()
+		turtle.forward(60)
+		turtle.right(90)
+		turtle.pendown()
+turtle.exitonclick()
