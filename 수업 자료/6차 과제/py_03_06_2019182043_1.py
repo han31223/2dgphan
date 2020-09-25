@@ -20,7 +20,7 @@ def handle_events() :
 
 open_canvas()
 grass = load_image('../res/grass.png')
-character = load_image('../res/run_animation.png')
+character = load_image('../res/f9746bd634729734176ac480384e14f1.jpg')
 
 running = True
 speed = 1
@@ -40,7 +40,7 @@ while running:
     
     update_canvas()
 
-    frame = (frame + 1 ) % 8
+    frame = (frame + 1 ) % 7
 
     handle_events()
     pos, done = h.move_toward(pos,delta,target)
